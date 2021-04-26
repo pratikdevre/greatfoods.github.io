@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 
-/* homepage css */
+/* homepage styling */
 *{
     padding: 0;
     margin: 0;
@@ -12,13 +12,11 @@
 body{
     font-family: 'Zen Dots', cursive;
 }
-
 .navbar{
     background-color: rgb(38, 33, 33);
     height: 80px;
     width: 100%;
 }
-
 .navbar .logo {
     color: whitesmoke;
     font-size: 30px;
@@ -26,17 +24,14 @@ body{
     float: left;
     padding: 0 25px;
 }
-
 .navbar ul{
     float: right;
     margin-right : 20px;
 }
-
 .navbar ul li {
     display: inline-block;
     line-height: 80px;
 }
-
 .navbar ul li a{
    color: whitesmoke;
    font-size: 1.2rem;
@@ -44,7 +39,6 @@ body{
    border-radius: 3px;
    text-transform: uppercase;
 }
-
 .active {
     background-color: rgb(201, 93, 111); 
 }
@@ -53,7 +47,6 @@ body{
     transition: all ease .8s;
     cursor: pointer;
 }
-
 .chkbtn{
     font-size: 25px;
     color: whitesmoke;
@@ -63,7 +56,6 @@ body{
     cursor: pointer;
     display: none;
 }
-
 #check{
     display: none;
 }
@@ -78,7 +70,6 @@ body{
     height: 600px;
     animation: slider 9s infinite linear;
 }
-
 @keyframes slider{
     0% {
         background-image: url("../images/img1.jpg");
@@ -127,17 +118,14 @@ body{
 .cards > :first-child{
     background-image: url("../images/img4.jpg");
 }
-
 .cards > :last-child{
     background-image: url("../images/img5.jpg");
 }
-
 .card h1,
 .card h3{
     font-weight: bolder;
     font-style: italic;
 }
-
 .card button{
     cursor: pointer;
     margin: 3px;
@@ -168,7 +156,6 @@ body{
     padding-top: 30px;
 
 }
-
 .bestRecipe{
     height: auto;
     display: flex;
@@ -176,7 +163,6 @@ body{
     align-items: center;
     justify-content: space-around;
 }
-
 .bestRecipe .bestRecipeCards{
     margin: 50px;
     box-shadow: 7px 7px 15px black;
@@ -184,14 +170,12 @@ body{
 .bestRecipe .bestRecipeCards:hover{
     box-shadow: 10px 10px 10px black;
 }
-
 .bestRecipe .bestRecipeCards .img{
     height: 300px;
     width : 300px;
     background-image: url("../images/img1.jpg");
     background-size: 100% 100%;
 }
-
 .bestRecipe .bestRecipeCards h2{
     color: black;
     text-align: center;
@@ -201,7 +185,6 @@ body{
 .bestRecipe .bestRecipeCards h2:hover{
     color: rgb(128, 85, 85);
 }
-
 .bestRecipe .bestRecipeCards .img1{
     background-image: url("../images/img6.jpg");
 }
@@ -227,14 +210,12 @@ body{
 .more{
     width: 100%;
     height: 80vh;
-    /* border: 2px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 20px;
 }
-
 .more .img{
     z-index: -1;
     width: 100%;
@@ -256,7 +237,6 @@ body{
     
     color: whitesmoke;
 }
-
 .more button{
     cursor: pointer;
     margin: 20px;
@@ -266,7 +246,6 @@ body{
     font-weight: bolder;
     border-radius: 10px;
 }
-
 .more button:hover{
     background-color: rgb(57, 107, 41);
     color: whitesmoke;
@@ -334,13 +313,11 @@ body{
         text-align: center;
         transition: all ease-in 0.3s;
     }
-
     .navbar ul li{
         display: block;
         margin: 50px 0;
         line-height: 50px;
     }
-
     #check:checked ~ ul{
         left: 0;
     }
@@ -384,7 +361,6 @@ body{
     .more .text p{
         font-size: 12px;
     }
-
     .more button{
         margin: 10px;
         padding: 15px;
